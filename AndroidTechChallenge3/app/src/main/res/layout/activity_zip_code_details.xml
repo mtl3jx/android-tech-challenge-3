@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:scrollbars="none"
+    android:layout_weight="1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/zip_code_details"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/table_padding"
+        tools:context=".details.ZipCodeDetailsActivity">
+
+        <TableRow android:id="@+id/row_zip_code">
+
+            <TextView
+                android:id="@+id/key_zip_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/table_data_padding"
+                android:text="@string/key_zip"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <TextView
+                android:id="@+id/value_zip_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/table_data_padding"
+                android:text="@string/test_details_value"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+        </TableRow>
+
+        <TableRow android:id="@+id/row_latitude">
+
+            <TextView
+                android:id="@+id/key_latitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/table_data_padding"
+                android:text="@string/key_latitude"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="@dimen/details_text_size"
+                android:textStyle="italic"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <TextView
+                android:id="@+id/value_latitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/table_data_padding"
+                android:text="@string/test_details_value"
+                android:textAlignment="center"
+                android:textSize="@dimen/details_text_size"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+        </TableRow>
+
+        <TableRow android:id="@+id/row_longitude">
+
+            <TextView
+                android:id="@+id/key_longitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/table_data_padding"
+                android:text="@string/key_longitude"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="@dimen/details_text_size"
+                android:textStyle="italic"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <TextView
+                android:id="@+id/value_longitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/table_data_padding"
+                android:text="@string/test_details_value"
+                android:textAlignment="center"
+                android:textSize="@dimen/details_text_size"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+        </TableRow>
+
+        <TableRow android:id="@+id/row_city">
+
+            <TextView
+                android:id="@+id/key_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/table_data_padding"
+                android:text="@string/key_city"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="@dimen/details_text_size"
+                android:textStyle="italic"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <TextView
+                android:id="@+id/value_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/table_data_padding"
+                android:text="@string/test_details_value"
+                android:textAlignment="center"
+                android:textSize="@dimen/details_text_size"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+        </TableRow>
+
+        <TableRow android:id="@+id/row_state">
+
+            <TextView
+                android:id="@+id/key_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/table_data_padding"
+                android:text="@string/key_state"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="@dimen/details_text_size"
+                android:textStyle="italic"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <TextView
+                android:id="@+id/value_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/table_data_padding"
+                android:text="@string/test_details_value"
+                android:textAlignment="center"
+                android:textSize="@dimen/details_text_size"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+        </TableRow>
+
+        <TableRow android:id="@+id/row_county">
+
+            <TextView
+                android:id="@+id/key_county"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/table_data_padding"
+                android:text="@string/key_county"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="@dimen/details_text_size"
+                android:textStyle="italic"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <TextView
+                android:id="@+id/value_county"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/table_data_padding"
+                android:text="@string/test_details_value"
+                android:textAlignment="center"
+                android:textSize="@dimen/details_text_size"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+        </TableRow>
+
+        <TableRow android:id="@+id/row_type">
+
+            <TextView
+                android:id="@+id/key_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/table_data_padding"
+                android:text="@string/key_type"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="@dimen/details_text_size"
+                android:textStyle="italic"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <TextView
+                android:id="@+id/value_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/table_data_padding"
+                android:text="@string/test_details_value"
+                android:textAlignment="center"
+                android:textSize="@dimen/details_text_size"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+        </TableRow>
+
+        <TableRow android:id="@+id/row_preferred">
+
+            <TextView
+                android:id="@+id/key_preferred"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/table_data_padding"
+                android:text="@string/key_preferred"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="@dimen/details_text_size"
+                android:textStyle="italic"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <TextView
+                android:id="@+id/value_preferred"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/table_data_padding"
+                android:text="@string/test_details_value"
+                android:textAlignment="center"
+                android:textSize="@dimen/details_text_size"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+        </TableRow>
+
+        <TableRow android:id="@+id/row_world_region">
+
+            <TextView
+                android:id="@+id/key_world_region"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/table_data_padding"
+                android:text="@string/key_wr"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="@dimen/details_text_size"
+                android:textStyle="italic"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <TextView
+                android:id="@+id/value_world_region"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/table_data_padding"
+                android:text="@string/test_details_value"
+                android:textAlignment="center"
+                android:textSize="@dimen/details_text_size"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+        </TableRow>
+
+        <TableRow android:id="@+id/row_country">
+
+            <TextView
+                android:id="@+id/key_country"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/table_data_padding"
+                android:text="@string/key_country"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="@dimen/details_text_size"
+                android:textStyle="italic"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <TextView
+                android:id="@+id/value_country"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/table_data_padding"
+                android:text="@string/test_details_value"
+                android:textAlignment="center"
+                android:textSize="@dimen/details_text_size"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+        </TableRow>
+
+        <TableRow android:id="@+id/row_location_text">
+
+            <TextView
+                android:id="@+id/key_location_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/table_data_padding"
+                android:text="@string/key_loctext"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="@dimen/details_text_size"
+                android:textStyle="italic"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <TextView
+                android:id="@+id/value_location_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/table_data_padding"
+                android:text="@string/test_details_value"
+                android:textAlignment="center"
+                android:textSize="@dimen/details_text_size"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+        </TableRow>
+
+        <TableRow android:id="@+id/row_location">
+
+            <TextView
+                android:id="@+id/key_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/table_data_padding"
+                android:text="@string/key_location"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="@dimen/details_text_size"
+                android:textStyle="italic"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <TextView
+                android:id="@+id/value_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/table_data_padding"
+                android:text="@string/test_details_value"
+                android:textAlignment="center"
+                android:textSize="@dimen/details_text_size"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+        </TableRow>
+
+        <TableRow android:id="@+id/row_population">
+
+            <TextView
+                android:id="@+id/key_population"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/table_data_padding"
+                android:text="@string/key_population"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="@dimen/details_text_size"
+                android:textStyle="italic"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <TextView
+                android:id="@+id/value_population"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/table_data_padding"
+                android:text="@string/test_details_value"
+                android:textAlignment="center"
+                android:textSize="@dimen/details_text_size"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+        </TableRow>
+
+        <TableRow android:id="@+id/row_housing_units">
+
+            <TextView
+                android:id="@+id/key_housing_units"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/table_data_padding"
+                android:text="@string/key_hu"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="@dimen/details_text_size"
+                android:textStyle="italic"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <TextView
+                android:id="@+id/value_housing_units"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/table_data_padding"
+                android:text="@string/test_details_value"
+                android:textAlignment="center"
+                android:textSize="@dimen/details_text_size"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+        </TableRow>
+
+        <TableRow android:id="@+id/row_income">
+
+            <TextView
+                android:id="@+id/key_income"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/table_data_padding"
+                android:text="@string/key_income"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="@dimen/details_text_size"
+                android:textStyle="italic"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <TextView
+                android:id="@+id/value_income"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/table_data_padding"
+                android:text="@string/test_details_value"
+                android:textAlignment="center"
+                android:textSize="@dimen/details_text_size"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+        </TableRow>
+
+        <TableRow android:id="@+id/row_land_area">
+
+            <TextView
+                android:id="@+id/key_land_area"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/table_data_padding"
+                android:text="@string/key_land"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="@dimen/details_text_size"
+                android:textStyle="italic"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <TextView
+                android:id="@+id/value_land_area"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/table_data_padding"
+                android:text="@string/test_details_value"
+                android:textAlignment="center"
+                android:textSize="@dimen/details_text_size"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+        </TableRow>
+
+        <TableRow android:id="@+id/row_water_area">
+
+            <TextView
+                android:id="@+id/key_water_area"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/table_data_padding"
+                android:text="@string/key_water"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="@dimen/details_text_size"
+                android:textStyle="italic"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <TextView
+                android:id="@+id/value_water_area"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/table_data_padding"
+                android:text="@string/test_details_value"
+                android:textAlignment="center"
+                android:textSize="@dimen/details_text_size"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+        </TableRow>
+
+        <TableRow android:id="@+id/row_decommissioned">
+
+            <TextView
+                android:id="@+id/key_decommissioned"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/table_data_padding"
+                android:text="@string/key_decommissioned"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                android:textStyle="italic"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <TextView
+                android:id="@+id/value_decommissioned"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/table_data_padding"
+                android:text="@string/test_details_value"
+                android:textAlignment="center"
+                android:textSize="@dimen/details_text_size"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+        </TableRow>
+
+        <TableRow android:id="@+id/row_military_restriction">
+
+            <TextView
+                android:id="@+id/key_military_restriction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/table_data_padding"
+                android:text="@string/key_mrc"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                android:textStyle="italic"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <TextView
+                android:id="@+id/value_military_restriction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/table_data_padding"
+                android:text="@string/test_details_value"
+                android:textAlignment="center"
+                android:textSize="@dimen/details_text_size"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+</ScrollView>

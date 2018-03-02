@@ -1,0 +1,54 @@
+<resources>
+    <!-- APPLICATION -->
+    <string name="app_name">Zip Code Database</string>
+
+    <!-- TEST STRINGS -->
+    <string name="test_zipcode">50001</string>
+    <string name="test_locality">Richmond</string>
+
+    <!-- SEARCH -->
+    <string name="button_search">Search</string>
+    <string name="search_zip_hint">Zip Code (ex. 50001)</string>
+    <string name="search_locality_hint">Locality (ex. Richmond)</string>
+    <string name="search_text">Enter a Zip Code or Locality below</string>
+
+    <!-- PROGRESS BAR -->
+    <string name="test_progress_text">53%</string>
+
+    <!-- TABLE -->
+    <string name="heading_zip_code">Zip Code</string>
+    <string name="heading_city">Locality</string>
+    <string name="heading_state">State</string>
+    <string name="search_token_feedback">All results with Zip Code \"50001\" or Locality \"Richmond\"</string>
+    <string name="progressMsg">Initializing the database...</string>
+    <string name="no_results">No Results Found</string>
+    <string name="test_state">VA</string>
+
+    <!-- MAP VIEW -->
+    <string name="google_android_map_api_key"> Map API key </string>
+    <string name="test_map_text">Philadelphia, PA 19130</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- DETAILS VIEW -->
+    <string name="test_details_value">NULL Value</string>
+    <string name="key_latitude">Latitude</string>
+    <string name="key_longitude">Longitude</string>
+    <string name="key_city">City</string>
+    <string name="key_state">State</string>
+    <string name="key_county">County</string>
+    <string name="key_type">Type</string>
+    <string name="key_preferred">Preferred</string>
+    <string name="key_wr">World Region</string>
+    <string name="key_country">Country</string>
+    <string name="key_loctext">Location Text</string>
+    <string name="key_location">Location</string>
+    <string name="key_population">Population</string>
+    <string name="key_hu">Housing Units</string>
+    <string name="key_income">Income</string>
+    <string name="key_land">Land Area</string>
+    <string name="key_water">Water Area</string>
+    <string name="key_decommissioned">Decommissioned</string>
+    <string name="key_mrc">Military Restriction Codes</string>
+    <string name="key_zip">Zip Code</string>
+
+</resources>

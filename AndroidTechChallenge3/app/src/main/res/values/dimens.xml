@@ -1,0 +1,20 @@
+<resources>
+    <!-- SEARCH FORM -->
+    <dimen name="search_form_height">200dp</dimen>
+    <dimen name="search_form_padding">14dp</dimen>
+    <dimen name="search_text_size">18dp</dimen>
+    <dimen name="search_text_padding">8dp</dimen>
+
+    <!-- TABLE -->
+    <dimen name="table_padding">6dp</dimen>
+    <dimen name="table_data_margin">12dp</dimen>
+    <dimen name="table_heading_margin">32dp</dimen>
+    <dimen name="table_data_padding">4dp</dimen>
+
+    <!-- MAP VIEW -->
+    <dimen name="map_view_margin">16dp</dimen>
+    <dimen name="map_view_top_margin">32dp</dimen>
+    <dimen name="details_text_size">18dp</dimen>
+    <dimen name="table_data_text_size">16sp</dimen>
+    <dimen name="table_heading_text_size">18sp</dimen>
+</resources>
